@@ -17,6 +17,7 @@ interface Props {
 const GameCard = ({ game }: Props) => {
   return (
     <Card borderRadius={10} overflow="hidden">
+      {/* getOptimizedImage(image_url) */}
       <Image src={game.background_image} />
       <CardBody>
         <Heading size="xl">{game.name}</Heading>

@@ -8,8 +8,8 @@ export default [
     metacritic: 92,
     parent_platforms: [
       { platform: { id: 1, name: "pc", slug: "pc" } },
-      { platform: { id: 1, name: "xbox", slug: "xbox" } },
-      { platform: { id: 1, name: "ios", slug: "ios" } },
+      { platform: { id: 2, name: "xbox", slug: "xbox" } },
+      { platform: { id: 3, name: "ios", slug: "ios" } },
     ],
   },
   {
@@ -20,8 +20,8 @@ export default [
     metacritic: 92,
     parent_platforms: [
       { platform: { id: 1, name: "pc", slug: "pc" } },
-      { platform: { id: 1, name: "xbox", slug: "xbox" } },
-      { platform: { id: 1, name: "ios", slug: "ios" } },
+      { platform: { id: 2, name: "xbox", slug: "xbox" } },
+      { platform: { id: 3, name: "ios", slug: "ios" } },
     ],
   },
   {
@@ -31,8 +31,8 @@ export default [
     metacritic: 92,
     parent_platforms: [
       { platform: { id: 1, name: "pc", slug: "pc" } },
-      { platform: { id: 1, name: "xbox", slug: "xbox" } },
-      { platform: { id: 1, name: "ios", slug: "ios" } },
+      { platform: { id: 2, name: "xbox", slug: "xbox" } },
+      { platform: { id: 3, name: "ios", slug: "ios" } },
     ],
   },
   {
@@ -42,8 +42,8 @@ export default [
     metacritic: 92,
     parent_platforms: [
       { platform: { id: 1, name: "pc", slug: "pc" } },
-      { platform: { id: 1, name: "xbox", slug: "xbox" } },
-      { platform: { id: 1, name: "ios", slug: "ios" } },
+      { platform: { id: 2, name: "xbox", slug: "xbox" } },
+      { platform: { id: 3, name: "ios", slug: "ios" } },
     ],
   },
   {
@@ -53,8 +53,8 @@ export default [
     metacritic: 92,
     parent_platforms: [
       { platform: { id: 1, name: "pc", slug: "pc" } },
-      { platform: { id: 1, name: "xbox", slug: "xbox" } },
-      { platform: { id: 1, name: "ios", slug: "ios" } },
+      { platform: { id: 2, name: "xbox", slug: "xbox" } },
+      { platform: { id: 3, name: "ios", slug: "ios" } },
     ],
   },
   {
@@ -64,8 +64,8 @@ export default [
     metacritic: 71,
     parent_platforms: [
       { platform: { id: 1, name: "pc", slug: "pc" } },
-      { platform: { id: 1, name: "xbox", slug: "xbox" } },
-      { platform: { id: 1, name: "ios", slug: "ios" } },
+      { platform: { id: 2, name: "xbox", slug: "xbox" } },
+      { platform: { id: 3, name: "ios", slug: "ios" } },
     ],
   },
 ];
