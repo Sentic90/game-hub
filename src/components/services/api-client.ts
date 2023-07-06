@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const LOCALHOST = "http://localhost:3000/api/movies";
+const LOCALHOST = "http://localhost:3000/";
 const PRODUCTION = "https://api.rawg.io/api";
 export default axios.create({
   baseURL: PRODUCTION,
