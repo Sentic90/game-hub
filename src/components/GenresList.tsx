@@ -1,6 +1,6 @@
 import { HStack, Image, List, ListItem, Spinner, Text } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
-import getOptimizedImage from "./services/image-url";
+import getCroppedImage from "./services/image-url";
 const GenresList = () => {
   const { data, error, isLoading } = useGenres();
 
@@ -12,7 +12,7 @@ const GenresList = () => {
         <ListItem key={genre.id} paddingY="5px">
           <HStack>
             <Image
-              src={getOptimizedImage(genre.background_image)}
+              src={getCroppedImage(genre.background_image)}
               boxSize="32px"
             />
             <Text fontSize="lg">{genre.name}</Text>
